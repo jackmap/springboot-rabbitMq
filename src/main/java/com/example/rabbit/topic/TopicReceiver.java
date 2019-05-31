@@ -1,4 +1,4 @@
-package com.neo.rabbit.topic;
+package com.example.rabbit.topic;
 
 import org.springframework.amqp.rabbit.annotation.RabbitHandler;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;

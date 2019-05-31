@@ -1,9 +1,10 @@
-package com.neo.rabbit.object;
+package com.example.rabbit.object;
 
-import com.neo.model.User;
 import org.springframework.amqp.rabbit.annotation.RabbitHandler;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;
+
+import com.example.model.User;
 
 @Component
 @RabbitListener(queues = "object")

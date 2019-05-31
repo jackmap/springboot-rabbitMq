@@ -1,4 +1,4 @@
-package com.neo.rabbit.direct;
+package com.example.rabbit.direct;
  
 import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.amqp.core.Message;

@@ -1,9 +1,10 @@
-package com.neo.rabbit.object;
+package com.example.rabbit.object;
 
-import com.neo.model.User;
 import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+
+import com.example.model.User;
 
 import java.util.Date;
 

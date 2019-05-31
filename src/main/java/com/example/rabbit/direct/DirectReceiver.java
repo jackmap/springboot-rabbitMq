@@ -1,4 +1,4 @@
-package com.neo.rabbit.direct;
+package com.example.rabbit.direct;
 import org.springframework.amqp.rabbit.annotation.RabbitHandler;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;

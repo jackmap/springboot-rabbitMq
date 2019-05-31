@@ -1,6 +1,6 @@
 package com.neo.rabbitmq;
 
-import com.neo.model.User;
+import com.example.demo.User;
 import com.neo.rabbit.object.ObjectSender;
 import org.junit.Test;
 import org.junit.runner.RunWith;

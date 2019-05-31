@@ -1,4 +1,4 @@
-package com.neo.rabbitmq;
+package com.example.test;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.neo.rabbit.direct.DirectSender;
-import com.neo.rabbit.fanout.FanoutSender;
+import com.example.rabbit.direct.DirectSender;
+
 
 /**
   *@deprecated:

@@ -1,24 +1,27 @@
-package com.neo.rabbitmq;
+package com.example.test;
 
-import com.neo.rabbit.fanout.FanoutSender;
-import com.neo.rabbit.topic.TopicSender;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import com.example.model.User;
+import com.example.rabbit.object.ObjectSender;
+
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class FanoutTest {
+public class ObjectTest {
 
 	@Autowired
-	private FanoutSender sender;
+	private ObjectSender sender;
 
 	@Test
-	public void fanoutSender() throws Exception {
-		sender.send();
+	public void sendOject() throws Exception {
+		User user=new User();
+		user.setName("neo");
+		user.setPass("123456");
+		sender.send(user);
 	}
-
 
 }
